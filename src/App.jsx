@@ -1,8 +1,11 @@
 import s from './App.module.css'
 import img1 from '/images.jpg'
 import img2 from '/shiny.jpg'
-import img3 from '/03.jpg'
-import sla from '/sla.png'
+import img3 from '/go.jpg'
+import aaa from '/aaa.png'
+import bbb from  '/bbb.png'
+import ccc from '/ccc.png'
+import ddd from '/ddd.png'
 
 function App() {
   
@@ -21,19 +24,19 @@ const navTo = (id) => {
     <>
       <nav>
       <span className={s.navItems} onClick={() => navTo("s1")}>
-        <i class="fa-solid fa-house"></i>
+        <img src={bbb} width="10px" alt="home" />
         <a href='.s1' className={s.navWords}>Jogo</a>
       </span>
       <span className={s.navItems} onClick={() => navTo("s2")}>
-        <i class="fa-solid fa-car-side"></i>
+        <img src={aaa} width="10px" alt="item" />
         <a href='.s2' className={s.navWords}>pokemons</a>
       </span>
       <span className={s.navItems} onClick={() => navTo("s3")}>
-        <i class="fa-brands fa-square-youtube"></i>
+        <img src={ccc} width="10px" alt="video" />
         <a href='.s3' className={s.navWords}>Vídeo</a>
       </span>
       <span className={s.navItems} onClick={() => navTo("s4")}>
-        <i class="fa-solid fa-phone"></i>
+        <img src={ddd} width="10px" alt="cont" />
         <a href='.s4' className={s.navWords}>Contato</a>
       </span>
     </nav>
@@ -60,7 +63,7 @@ const navTo = (id) => {
         <div className={s.card}>
           <img width="300px" height="auto" src={img3} alt="nfs3" />
           <div>
-            <h4>Need for Speed Heat</h4>
+            <h4>pokemon go</h4>
             <p>Conhecido pelas perseguições policiais intensas e pela icônica lista Blacklist, ele mistura adrenalina e estratégia em cada corrida. A combinação de carros exóticos, narrativa envolvente e ação constante tornou esse título um dos mais lembrados da série.</p>
           </div>
         </div>
