@@ -64,14 +64,14 @@ const navTo = (id) => {
           <img width="300px" height="auto" src={img3} alt="nfs3" />
           <div>
             <h4>pokemon go</h4>
-            <p>Conhecido pelas perseguições policiais intensas e pela icônica lista Blacklist, ele mistura adrenalina e estratégia em cada corrida. A combinação de carros exóticos, narrativa envolvente e ação constante tornou esse título um dos mais lembrados da série.</p>
+            <p></p>
           </div>
         </div>
       </section>
       <section className={s.s3} id="s3">
         <iframe
           className={s.vid}
-          src="https://www.youtube.com/embed/9ewiJJe_nYI?si=QBAFa5Ym9jjekUK2&autoplay=0"
+           src="https://www.youtube.com/embed/9QPlK01t6bw?si=6d7cxCOS2pqKOtVx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" 
           title="YouTube video player"
           frameborder="0"
           allow="
